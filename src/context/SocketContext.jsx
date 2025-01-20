@@ -5,7 +5,7 @@ export const SocketContext = createContext();
 
 export const SocketProvider = ({ children }) => {
 
-    const { socket } = useSocket('http://localhost:3001');
+    const { socket } = useSocket('https://huggopanel.online')
 
     return (
         <SocketContext.Provider value={{ socket }}>

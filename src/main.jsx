@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
-import { UserDataProvider } from '../../../../context/UserDataContext'
-import { SocketProvider } from '../../../../context/SocketContext'
+import { UserDataProvider } from './context/UserDataContext'
+import { SocketProvider } from './context/SocketContext'
 import { ModeLiveProvider } from './context/ModeLiveContext'
 import { Layout } from './components/layout/Layout'
 import {NextUIProvider} from "@nextui-org/react";
