@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+.labelGmail{
+    @apply  rounded w-full border-0 h-[54px] pt-[24px] pr-[48px] pb-[6px] pl-[12px] bg-white outline-none;
+  }
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/font/Roboto-Regular.ttf');
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
